@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Rigidbody rb;
+    private Rigidbody rb;
     private bool isFwd;
     private bool isBack;
     private bool isRight;
     private bool isLeft;
     public float speed;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         {
             isFwd = true;
         }
-        else { isFwd = false;}
+        else { isFwd = false; }
 
         if (Input.GetKey(KeyCode.S))
         {
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         var direction = Vector3.zero;
 
         if (isFwd)
-        { 
+        {
             direction += Vector3.forward;
         }
 
