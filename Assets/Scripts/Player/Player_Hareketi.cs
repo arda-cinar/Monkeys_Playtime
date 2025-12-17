@@ -40,6 +40,15 @@ public class Player_Hareketi : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z; // Yerel Yön
 
+
+
+        if (move.magnitude > 1)
+        {
+            move.Normalize(); //Çapraz Hýzlanma
+        }
+
+
+
         controller.Move(move * speed * Time.deltaTime); // Hareketi Uygulama
 
 
