@@ -2,7 +2,7 @@
 ### Unity ile Geliştirilmiş FPS Psikolojik Korku Oyunu
 **(Proje Kod Adı: Monkeys_Playtime)**
 
-<img width="2528" height="1696" alt="Gemini_Generated_Image_yrwfhgyrwfhgyrwf" src="https://github.com/user-attachments/assets/e9b445ba-effb-4b0c-9acc-5ee04c875db4" />
+<img width="2560" height="1716" alt="Gemini_Generated_Image_yrwfhgyrwfhgyrwf (1)" src="https://github.com/user-attachments/assets/64d3a1d1-2c0f-4921-b6c1-b58e9103de84" />
 
 ## Proje Hakkında
 Unity oyun motoru kullanılarak geliştirilen **Echoes of the Toy**, FPS (Birinci Şahıs) bakış açısına sahip, atmosfer odaklı bir psikolojik korku oyunudur. Günümüz korku oyunlarında (2025) hissedilen "nitelikli ve hikaye derinliği olan yapım" eksikliğini giderme vizyonuyla ortaya çıkan bu çalışma, *Silent Hill 4* ve *Layers of Fear (2016)* gibi klasiklerin yarattığı tekinsiz atmosferden ilham almaktadır.
