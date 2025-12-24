@@ -13,6 +13,7 @@ public class Player_Hareketi : MonoBehaviour
     public LayerMask groundMask;        //atanan Layer'larýn kimliði
 
     Vector3 velocity;
+    public float value = -2f;
 
     bool isGrounded;
     
@@ -26,11 +27,12 @@ public class Player_Hareketi : MonoBehaviour
 
     void Update()
     {
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); //küre hacminde tarama
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f; // Düþüþü Sýfýrla
+            velocity.y = value; // Düþüþü Sýfýrla
         }
 
 
@@ -46,8 +48,6 @@ public class Player_Hareketi : MonoBehaviour
         {
             move.Normalize(); //Çapraz Hýzlanma
         }
-
-
 
         controller.Move(move * speed * Time.deltaTime); // Hareketi Uygulama
 
@@ -78,4 +78,5 @@ public class Player_Hareketi : MonoBehaviour
         lastPosition = gameObject.transform.position; //Hafýzayý güncelle
     }
 
+    
 }

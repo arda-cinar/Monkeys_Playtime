@@ -15,7 +15,7 @@ public class Kamera_Hareketi : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void Update()
+    void LateUpdate()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseHassasiyeti * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseHassasiyeti * Time.deltaTime;
